@@ -1,0 +1,480 @@
+body {
+    font-family:"Times New Roman", Times, serif;
+    background-color: white;
+    color: black;
+    transition: color 0.5s ease, background-color 0.5s ease;
+    background: linear-gradient(circle, #52b4e4, #0b131a);
+    height: 100vh; /* Full screen height */
+    margin: 0;
+}
+
+/* Class */ 
+/*javascript input*/
+.container {
+    background:white;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,2);
+    width: 300px; 
+}
+input {
+    outline: none;
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+/* words positions */ 
+.bottom {
+    text-align: bottom;
+}
+.center {
+    text-align: center;
+}
+
+/* Word Fonts */
+.normal {
+    font-style: normal;
+} 
+.Georgia {
+    font-family: Georgia, serif;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+/* Button */ 
+.btn {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 1100px;
+    top: 850px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btnproject2home {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 1100px;
+    top: 1050px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn2 {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 1100px;
+    top: 800px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn3 {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 1100px;
+    top: 750px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btnjs {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 20px;
+    top: 100px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btnblack {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 170px;
+    top: 100px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btnname {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 890px;
+    top: 225px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btncolor {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 890px;
+    top: 300px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.agebtn {
+    background-color:deepskyblue; 
+    position:absolute;
+    left: 890px;
+    top: 150px;
+    color: white; 
+    border:#0b131a;
+    border-radius: 15px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Button color change on hover */
+.btn:hover {
+    background-color:cornflowerblue; 
+}
+
+
+.intro {
+    font-weight:500;
+    font-size:20px;
+    color:black
+}
+.blue {
+    color:cornflowerblue;
+}
+
+/* dogs pic */
+.goldenpic {
+    position:absolute;
+    top: 390px;  
+    left: 1100px;
+}
+.graypic {
+    position:absolute;
+    top: 390px;
+    left: 750px;
+}
+.brownpic {
+    position:absolute;
+    top: 390px;
+    left: 400px;
+}
+.blackpic {
+    position:absolute;
+    top: 390px;
+    left: 50px;
+}
+.codepic {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.dog1 {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.dog2 {
+    position: absolute;
+    top: 150px;
+    left: 380px; 
+}
+.dog3 {
+    position: absolute;
+    top: 150px;
+    left: 730px; 
+}
+.dog4 {
+    position: absolute;
+    top: 150px;
+    left: 1080px; 
+}
+.dog5 {
+    position: absolute;
+    top: 600px;
+    left: 30px; 
+}
+.dog6 {
+    position: absolute;
+    top: 600px;
+    left: 380px; 
+}
+.dog7 {
+    position: absolute;
+    top: 600px;
+    left: 730px; 
+}
+.dog8 {
+    position: absolute;
+    top: 600px;
+    left: 1080px;
+}
+.animal1 {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.animal2 {
+    position: absolute;
+    top: 150px;
+    left: 380px;
+}
+.animal3 {
+    position: absolute;
+    top: 150px;
+    left: 730px; 
+}
+.animal4 {
+    position: absolute;
+    top: 150px;
+    left: 1080px; 
+}
+.animal5 {
+    position: absolute;
+    top: 400px;
+    left: 30px; 
+}
+.animal6 {
+    position: absolute;
+    top: 400px;
+    left: 380px; 
+}
+.animal7 {
+    position: absolute;
+    top: 400px;
+    left: 730px; 
+}
+.animal8 {
+    position: absolute;
+    top: 400px;
+    left: 1080px;
+}
+
+
+/* ID */ 
+#page-title {
+    font-family: Georgia, serif;
+    background-color:antiquewhite;
+    font-size:50px;
+}
+#mydog1 {
+    position:absolute;
+    text-align: right;
+    margin-right: 20x;
+    top:400px;
+    font-size: 25px;
+}
+#mydog2 {
+    position:absolute;
+    text-align: right;
+    margin-right: 20x;
+    top:500px;
+    font-size: 25px;
+    color:crimson
+}
+#text {
+    text-align:right
+}
+#greeting {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+#color {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+#intro {
+    position:absolute;
+    top: 300px;
+    left: 10px;
+    color:cornflowerblue;
+    font-size: 25px;
+}
+#prank {
+    position:absolute;
+    top: 340px;
+    left: 10px;
+    color:cornflowerblue;
+    font-size: 25px;
+}
+#nameInput {
+    font-size: 16px;
+    left: 520px;
+    top: 225px;
+} 
+#colorInput {
+    font-size: 16px;
+    left: 520px;
+    top: 300px;
+} 
+#ageInput {
+    font-size: 16px;
+    left: 520px;
+    top: 150px;
+}
+
+
+/* Specific */ 
+/* Image */
+img {
+    border: 3px solid black; 
+    border-radius: 10px
+}
+img:hover {
+    opacity: 0.3;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+} 
+#Avia {
+    position:absolute;
+    top:100px;
+    left: 200px;
+}
+#Avialist {
+    position:absolute;
+    top:120px;
+    left: 200px;
+}
+#Luvena {
+    position:absolute;
+    top:1500px;
+    left: 200px;
+}
+#Luvenalist {
+    position:absolute;
+    top:1700px;
+    left: 200px;
+}
+
+/* Invert form */
+.inverted-border {
+    border-color: white;
+}
+.inverted-body {
+    background-color: black;
+    color: white;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+.inverted-text {
+    color: white;
+}
+
+/* Words */
+h1 {
+    color:black;
+}
+h2 {
+    color:cornflowerblue;
+    font-size: 25px;
+}
+
+p {
+    font-size: 30px;
+    color:black
+}
+
+/* Unordered List */ 
+ul {
+    list-style-type: decimal-leading-zero; 
+    padding-left: 20px; 
+    font-family: Georgia, sans-serif; 
+}
+li {
+    color: #333; 
+    margin: 10px 0; 
+    font-size: 18px; 
+}
+li:hover {
+    color: #007BFF; 
+}
+ul, ol {
+    margin-left:20px;
+}
