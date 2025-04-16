@@ -53,7 +53,7 @@ input {
     background-color:deepskyblue; 
     position:absolute;
     left: 1100px;
-    top: 850px;
+    top: 940px;
     color: white; 
     border:#0b131a;
     border-radius: 15px;
@@ -89,7 +89,7 @@ input {
     background-color:deepskyblue; 
     position:absolute;
     left: 1100px;
-    top: 800px;
+    top: 880px;
     color: white; 
     border:#0b131a;
     border-radius: 15px;
@@ -107,7 +107,7 @@ input {
     background-color:deepskyblue; 
     position:absolute;
     left: 1100px;
-    top: 750px;
+    top: 820px;
     color: white; 
     border:#0b131a;
     border-radius: 15px;
@@ -219,6 +219,7 @@ input {
 
 
 .intro {
+    right:10px;
     font-weight:500;
     font-size:20px;
     color:black
@@ -230,22 +231,22 @@ input {
 /* dogs pic */
 .goldenpic {
     position:absolute;
-    top: 390px;  
+    top: 500px;  
     left: 1100px;
 }
 .graypic {
     position:absolute;
-    top: 390px;
+    top: 500px;
     left: 750px;
 }
 .brownpic {
     position:absolute;
-    top: 390px;
+    top: 500px;
     left: 400px;
 }
 .blackpic {
     position:absolute;
-    top: 390px;
+    top: 500px;
     left: 50px;
 }
 .codepic {
@@ -334,27 +335,21 @@ input {
     left: 1080px;
 }
 
+.dream1{
+    top:600px;
+    left:1120px;
+}
+.dream2{
+    top:620px;
+    left:1190px;
+}
+
 
 /* ID */ 
 #page-title {
     font-family: Georgia, serif;
     background-color:antiquewhite;
     font-size:50px;
-}
-#mydog1 {
-    position:absolute;
-    text-align: right;
-    margin-right: 20x;
-    top:400px;
-    font-size: 25px;
-}
-#mydog2 {
-    position:absolute;
-    text-align: right;
-    margin-right: 20x;
-    top:500px;
-    font-size: 25px;
-    color:crimson
 }
 #text {
     text-align:right
@@ -369,19 +364,19 @@ input {
     margin-top: 15px;
     color: #333;
 }
-#intro {
+#myself {
     position:absolute;
-    top: 300px;
+    top: 370px;
     left: 10px;
     color:cornflowerblue;
-    font-size: 25px;
+    font-size: 30px;
 }
 #prank {
     position:absolute;
-    top: 340px;
+    top: 400px;
     left: 10px;
     color:cornflowerblue;
-    font-size: 25px;
+    font-size: 30px;
 }
 #nameInput {
     font-size: 16px;
@@ -415,23 +410,23 @@ a:hover {
 } 
 #Avia {
     position:absolute;
-    top:100px;
-    left: 200px;
+    top:680px;
+    left: 20px;
 }
 #Avialist {
     position:absolute;
-    top:120px;
-    left: 200px;
+    top:730px;
+    left: 20px;
 }
 #Luvena {
     position:absolute;
-    top:1500px;
-    left: 200px;
+    top:870px;
+    left: 20px;
 }
 #Luvenalist {
     position:absolute;
-    top:1700px;
-    left: 200px;
+    top:920px;
+    left: 20px;
 }
 
 /* Invert form */
