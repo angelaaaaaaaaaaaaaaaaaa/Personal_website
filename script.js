@@ -1,22 +1,18 @@
 function showMessage() { 
     alert("This website is for entertainment"); 
     }
-function changeBgColor() { 
-    document.body.style.backgroundColor = "Black"; 
-    document.querySelectorAll("img").forEach(img => {
-        img.classList.toggle("inverted-border");
-    });
-    }
+function changeBackgroundColor() {
+    const userColor = document.getElementById("colorInput").value;
+    document.body.style.backgroundColor = userColor;
+}    
 function toggleTextColor() {
     document.body.classList.toggle("inverted-text");
 }
 function displayGreeting() {
     let name = document.getElementById("nameInput").value;
-    if (name.trim() === "") {
-        document.getElementById("nameInput").innerText = "Please enter your name!";
-    } else {
-        document.getElementById("nameInput").innerText = "Hello, " + name + "!";
-    }
+    document.getElementById("greeting").innerHTML = "Hello," + name + "Welcome to my website!";
+    greeting.style.left = "200px";
+    greeting.style.top = "150px";
 }   
 function changeBgColorUser() {
     let userColor = document.getElementById("colorInput").value;
@@ -31,7 +27,7 @@ function unfavorite() {
     print("You unfavorited this!")
 }
 function checkAge() {
-    let age = DocumentFragment.getElementById("ageInput").value;
+    let age = document.getElementById("ageInput").value;
     if (age >= 18) {
         alert("your're an adult!");
     } else {
